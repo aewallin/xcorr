@@ -1,15 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.8rc1'?>
+<?grc format='1' created='3.7.9'?>
 <flow_graph>
   <timestamp>Thu Jul  9 10:18:13 2015</timestamp>
   <block>
     <key>options</key>
     <param>
       <key>author</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
       <value></value>
     </param>
     <param>
@@ -45,6 +41,10 @@
       <value>hb</value>
     </param>
     <param>
+      <key>hier_block_src_path</key>
+      <value>.:</value>
+    </param>
+    <param>
       <key>id</key>
       <value>NoiseConvert2</value>
     </param>
@@ -53,8 +53,16 @@
       <value>0</value>
     </param>
     <param>
+      <key>qt_qss_theme</key>
+      <value></value>
+    </param>
+    <param>
       <key>realtime_scheduling</key>
       <value></value>
+    </param>
+    <param>
+      <key>run_command</key>
+      <value>{python} -u {filename}</value>
     </param>
     <param>
       <key>run_options</key>
@@ -93,7 +101,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(512, 321)</value>
+      <value>(512, 329)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -132,7 +140,10 @@
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value>z1 = r1 exp(i theta1)
+z2 = r2 exp(i theta2)
+
+arg( z1 z2* ) = (theta1 - theta2)</value>
     </param>
     <param>
       <key>affinity</key>
@@ -230,7 +241,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(264, 329)</value>
+      <value>(248, 329)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -261,7 +272,7 @@
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value>am = (abs(dut)-abs(ref)) / (abs(ref)+abs(dut))</value>
     </param>
     <param>
       <key>affinity</key>
@@ -324,7 +335,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(856, 345)</value>
+      <value>(984, 337)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -410,7 +421,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(496, 233)</value>
+      <value>(496, 201)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -476,7 +487,8 @@
     <key>pad_sink</key>
     <param>
       <key>comment</key>
-      <value></value>
+      <value>re = normalized am
+im = phase difference (rad)</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -484,7 +496,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1064, 355)</value>
+      <value>(1024, 484)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -500,7 +512,7 @@
     </param>
     <param>
       <key>label</key>
-      <value>ampm</value>
+      <value>amplitude_and_phase</value>
     </param>
     <param>
       <key>num_streams</key>
@@ -539,7 +551,7 @@
     </param>
     <param>
       <key>label</key>
-      <value>sig</value>
+      <value>dut</value>
     </param>
     <param>
       <key>num_streams</key>

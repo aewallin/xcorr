@@ -1,15 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.8'?>
+<?grc format='1' created='3.7.9'?>
 <flow_graph>
   <timestamp>Tue Aug  4 18:46:19 2015</timestamp>
   <block>
     <key>options</key>
     <param>
       <key>author</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
       <value></value>
     </param>
     <param>
@@ -45,6 +41,10 @@
       <value>hb</value>
     </param>
     <param>
+      <key>hier_block_src_path</key>
+      <value>.:</value>
+    </param>
+    <param>
       <key>id</key>
       <value>Ampm</value>
     </param>
@@ -53,8 +53,16 @@
       <value>0</value>
     </param>
     <param>
+      <key>qt_qss_theme</key>
+      <value></value>
+    </param>
+    <param>
       <key>realtime_scheduling</key>
       <value></value>
+    </param>
+    <param>
+      <key>run_command</key>
+      <value>{python} -u {filename}</value>
     </param>
     <param>
       <key>run_options</key>
@@ -84,10 +92,6 @@
       <value></value>
     </param>
     <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
@@ -102,6 +106,10 @@
     <param>
       <key>id</key>
       <value>CountWraps_0</value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -124,10 +132,6 @@
 output am (sig-ref)/(sig+ref) as real</value>
     </param>
     <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
       <key>_enabled</key>
       <value>0</value>
     </param>
@@ -142,6 +146,10 @@ output am (sig-ref)/(sig+ref) as real</value>
     <param>
       <key>id</key>
       <value>NoiseConvert2_0</value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -172,7 +180,7 @@ output am (sig-ref)/(sig+ref) as real</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(288, 361)</value>
+      <value>(232, 113)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -368,7 +376,7 @@ output am (sig-ref)/(sig+ref) as real</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(432, 323)</value>
+      <value>(352, 138)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -443,7 +451,7 @@ output am (sig-ref)/(sig+ref) as real</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(632, 323)</value>
+      <value>(576, 218)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -518,7 +526,7 @@ output am (sig-ref)/(sig+ref) as real</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(824, 323)</value>
+      <value>(808, 298)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -569,7 +577,7 @@ output am (sig-ref)/(sig+ref) as real</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1104, 217)</value>
+      <value>(1080, 121)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -612,7 +620,7 @@ output am (sig-ref)/(sig+ref) as real</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1184, 435)</value>
+      <value>(1192, 188)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -655,7 +663,7 @@ output am (sig-ref)/(sig+ref) as real</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(88, 361)</value>
+      <value>(80, 113)</value>
     </param>
     <param>
       <key>_rotation</key>
